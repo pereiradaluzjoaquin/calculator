@@ -2,10 +2,10 @@
   "name": "arithmetic-calculator-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node api/server.js"
+    "start": "node api/index.js"
   },
   "keywords": [],
   "author": "",
