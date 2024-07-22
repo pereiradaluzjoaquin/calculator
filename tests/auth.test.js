@@ -3,7 +3,6 @@ const request = require("supertest");
 const mongoose = require("mongoose");
 const express = require("express");
 const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const authRoutes = require("../routes/auth");
 const { MongoMemoryServer } = require("mongodb-memory-server");
