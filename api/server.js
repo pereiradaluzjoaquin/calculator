@@ -21,10 +21,12 @@ mongoose
     console.log("Failed to connect to MongoDB", err);
   });
 
-app.use("/api/auth", require("./routes/auth"));
-app.use("/api/operations", require("./routes/operations"));
-app.use("/api/records", require("./routes/records"));
+app.use("/api/auth", require("../routes/auth"));
+app.use("/api/operations", require("../routes/operations"));
+app.use("/api/records", require("../routes/records"));
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app;
